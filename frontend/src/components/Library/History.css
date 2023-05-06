@@ -1,0 +1,33 @@
+/* History CSS start */
+
+h1 {
+    margin: 20px 30px;
+}
+
+.history {
+    display: inline-flex;
+    box-sizing: border-box;
+    gap: 20px;
+    width: 100%;
+    padding: 20px 30px;
+    overflow: auto;
+}
+
+/* History CSS end */
+
+/* HistoryItem CSS start */
+
+.historyitems {
+    display: block;
+}
+
+.historyitems img {
+    height: 200px;
+    width: 200px;
+}
+
+.historyitems h3 {
+    padding: 20px 0;
+}
+
+/* Playlist CSS end */

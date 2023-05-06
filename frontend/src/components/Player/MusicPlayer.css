@@ -1,0 +1,50 @@
+/* MusicPlayer CSS start */
+
+.musicplayer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+    padding: 20px;
+}
+
+.musicplayer img {
+    height: 70px;
+    width: 70px;
+}
+
+.musicplayer div {
+    height: fit-content;
+}
+
+.musicplayer audio {
+    height: fit-content;
+}
+
+@media only screen and (max-width: 860px) {
+    .musicplayer {
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .musicplayer img {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .musicplayer {
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .musicplayer div {
+        display: none;
+    }
+}
+
+/* MusicPlayer CSS end */

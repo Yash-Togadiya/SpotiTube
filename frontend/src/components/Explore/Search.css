@@ -1,0 +1,44 @@
+/* Search CSS start */
+
+.search {
+    margin: 20px auto;
+    width: fit-content;
+}
+
+.search input {
+    margin: 0 20px;
+    padding: 0 20px;
+    height: 50px;
+    width: 700px;
+    font-size: 20px;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.search button {
+    margin: 0 20px;
+    vertical-align: middle;
+    background-color: white;
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+.search img {
+    height: 30px;
+    width: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+    .search input {
+        width: 380px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .search input {
+        width: 200px;
+    }
+}
+
+/* Search CSS end */

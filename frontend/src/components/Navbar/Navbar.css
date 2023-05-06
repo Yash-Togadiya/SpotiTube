@@ -1,0 +1,105 @@
+/* Navbar CSS start */
+.navbar {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  background-color: black;
+  color: white;
+}
+/* Navbar CSS end */
+
+/* Logo CSS start */
+
+.logo {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* Logo CSS end */
+
+/* Navitmes CSS start */
+
+.navitems {
+  list-style: none;
+}
+
+.navitem {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 30px;
+}
+
+.navitem a {
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.navitem a:hover {
+  font-size: 25px;
+  text-shadow: 1px 1px 2px;
+}
+
+@media only screen and (max-width: 790px) {
+  .navitems {
+    display: none;
+  }
+}
+/* Navitems CSS end */
+
+/* Hambuger CSS start */
+
+.hamburger {
+  display: none;
+}
+
+.hamburger img {
+  height: 25px;
+  width: 25px;
+}
+
+@media only screen and (max-width: 790px) {
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 120px;
+  }
+
+  .true {
+    display: block;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: black;
+  }
+
+  .true .navitem {
+    display: block;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+  }
+}
+
+/* Hamburger CSS end */
+
+/* Signin CSS start */
+
+#signinbtn {
+  padding: 5px 15px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+#signinbtn:hover {
+  color: white;
+  background-color: black;
+}
+
+/* Signin CSS end */

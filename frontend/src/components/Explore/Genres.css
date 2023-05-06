@@ -1,0 +1,51 @@
+/* Genres CSS start */
+
+.genres {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    margin: 10px 0;
+    gap: 50px;
+}
+
+@media only screen and (max-width: 700px) {
+    .genres {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .genres {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Genres CSS end */
+
+/* Genre CSS start */
+
+.genre {
+    background-color: red;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.genre h2 {
+    background-color: red;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.genre img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    transform: rotate(20deg);
+    position: relative;
+    float: right;
+    left: 10px;
+    bottom: -10px;
+}
+
+/* Genre CSS end */

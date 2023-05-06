@@ -1,0 +1,53 @@
+/* Songs CSS start */
+
+.songs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-sizing: border-box;
+    width: 100%;
+    max-height: 420px;
+    padding: 20px 30px;
+    margin: 20px 0;
+    overflow: auto;
+}
+
+@media only screen and (max-width: 850px) {
+    .songs {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .songs {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Songs CSS end */
+
+/* Song CSS start */
+.song {
+    margin: 20px;
+}
+
+.song > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.songimg img {
+    height: 80px;
+    width: 80px;
+}
+
+.songtitle {
+    padding: 0 0 0 20px;
+    max-width: 150px;
+}
+
+.songtitle * {
+    padding: 8px 0;
+}
+/* Song CSS end */ ;
